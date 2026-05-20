@@ -1,4 +1,6 @@
-import { Routes, Route } from "react-router";
+import { Routes, Route } from "react-router-dom";
+import './index.css'
+
 
 import Hero from "./components/Hero/Hero";
 import APropos from "./components/APropos/APropos";
@@ -9,10 +11,12 @@ import Projet from "./components/Projet/Projet";
 import Faq from "./components/Faq/Faq";
 
 
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
     <div>
-      <h1>Some Wizard with Steps</h1>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="a propos" element={<APropos />} />
