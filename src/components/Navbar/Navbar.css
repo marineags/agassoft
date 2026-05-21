@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #f7f7f7;
+  background-color: #f4F0EF;
   padding: 10px 20px;
 }
 
@@ -25,6 +25,12 @@
   font-style: normal;
 }
 
+.adamina-regular {
+  font-family: "Adamina", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 .logo {
@@ -44,16 +50,16 @@ font-size: 27px;
   display: block;
   text-align: center;
   letter-spacing: 5px;
-  margin-left: 67px;
-  margin-top: -22px;
-  font-family: "Silkscreen", sans-serif;
+  margin-left: 72px;
+  margin-top: -10px;
+   font-family: "Adamina", serif;
   font-weight: 700;
-  color: #ff5a00;
+  color: #ff7F1A;
 
 }
 
 .parler-de-mon-projets {
- background-color: #ff5900cd;
+ background-color: #ff7F1A;
   padding: 10px 15px;
   border-radius: 5px;
   margin-left: 20px;

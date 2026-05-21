@@ -1,0 +1,152 @@
+
+
+.adamina-regular {
+  font-family: "Adamina", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.section-1{
+height: 1000vh;
+}
+
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+.hero-subtitle  {
+ margin-top: 150px;
+}
+
+.text {
+  display: flex;
+  font-size: 18px;
+  color: #ff7F1A;
+}
+
+.hero-title{
+    display: flex;
+  font-size: 40px;
+  color: #333;
+  margin-top: -55px;
+  font-family: "Adamina", serif;
+  
+}
+.hero-title span {
+  color: #ff7F1A;
+  
+}
+
+
+.hero-description {
+    display: flex;
+  font-size: 18px;
+  color: #333;
+  margin-top: -40px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+
+    
+}
+
+ button {
+  background-color: #ff7F1A;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.hero-divider {
+display: flex;
+flex-direction: row;
+gap:30px ;
+}
+.hero-image {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 12px;
+  
+}
+.propre {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.accompagner {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.design{ width: 40px;
+  height: 40px;
+  margin-right: 10px;}
+
+
+.hero-background-image {
+  position: relative;
+  top: -500px;
+  left: 580px;
+  width: 950px;
+  z-index: -999;
+  opacity: 0.5;
+ 
+ 
+}
+
+/* ------------------------- */
+.subtitle-2 {
+    display: flex;
+  margin-left: 50px;
+  margin-top: -400px;
+}
+
+.title-2 {
+    display: flex;
+  font-size: 40px;
+  color: #333;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: "Adamina", serif;
+}
+
+.cards-container {
+  display: flex;
+ margin: 50px;
+  gap: 1px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-service {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 70px;
+  background-color: #ff7F1A;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  font-size: 18px;
+}
+.button-service:hover {
+   background-color: #ff59006d;
+  
+  transition: all 0.3s ease;
+}
